@@ -1,19 +1,25 @@
-### SEAN
-
-> **S**qlite **E**xpress **A**ngular **N**ode
+### Express Sqlite
 
 ### How to get a copy of the code
 
 ```
 cd desktop
-git clone https://github.com/ammonk/sean-starter.git
+git clone https://github.com/ammonk/express-sqlite.git
+```
+
+### Dependencies
+
+Nodemon
+
+```
+npm install -g nodemon
 ```
 
 ### How to run
 
 ```
 npm install
-npm run dev
+npm start
 ```
 
 ### How To Make From Scratch
