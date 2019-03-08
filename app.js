@@ -11,9 +11,6 @@ var fruitRouter = require("./routes/fruits");
 
 var app = express();
 
-// serve the angular application
-//app.use(express.static(path.join(__dirname, "client/dist")));
-
 app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
